@@ -4,14 +4,6 @@
 
 Typeahead or autocomplete is a common feature that people come across on websites. For example, when you are searching on Google, you will notice a word populates before you finish typing.
 
-We had a fully working Typeahead system here at Matilda that worked with names of people. But someone (or something) somehow managed to alter the repository (even the history!) where we had this stored and now it's entirely broken. We promise it was *working on our machine* ®, we even recorded a video of this Typeahead system we shared with the entire community, here it is:
-
-[![video](https://user-images.githubusercontent.com/632782/89068535-6b034c00-d33f-11ea-84b1-9c0a53a93200.png)](https://www.youtube.com/watch?v=4C8alIrak9M)
-
-Your mission, if you choose to accept it, it's to make this app work as it was previously working. It looks like the entire HTML structure and CSS styles were preserved, so you don't need to write any of that. But most of the behavior disappeared, specially inside the TypeaheadInput component.
-
-We have the details on the requirements we discussed when implementing this app, and we even have the tests that our implementation was passing, so both of these will help you help us recover our app.
-
 ## Specific requirements
 
 When brainstorming how should our Typeahead system work, we had the following ideas:

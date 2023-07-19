@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src={logo} className="logo" alt="Matilda logo" />
-        <h1>Matilda Typeahead</h1>
+        <h1>Typeahead</h1>
       </header>
       <Form />
     </div>

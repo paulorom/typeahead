@@ -17,7 +17,7 @@ export default function Form() {
     (picked) => {
       axiosInstance.post(`/typeahead`, { name: picked.name })
       setChosen(prevChosen => [...prevChosen, picked])
-    },[],
+    }, [],
   );
 
   useEffect(() => {
